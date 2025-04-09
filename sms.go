@@ -51,11 +51,8 @@ func main() {
 	// yellow := "\033[01;33m"
 	clearScreen()
 	fmt.Println("\033[01;33m")
-	fmt.Println(` 
-                                                                   
-             Mehdi 256 Mehdi 256                                                                                                                                         												 
-
-	`)
+	fmt.Println(`        Mehdi 256 Mehdi 256         `)
+	
 	var phone string
 	fmt.Println("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;33mSms bomber ! number web service : \033[01;31m177 \n\033[01;31m[\033[01;32m+\033[01;31m] \033[01;33mCall bomber ! number web service : \033[01;31m6\n\n")
 	fmt.Print("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;32mEnter phone [Ex:09xxxx]: \033[00;36m")
