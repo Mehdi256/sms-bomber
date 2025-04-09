@@ -53,7 +53,7 @@ func main() {
 	fmt.Println("\033[01;33m")
 	fmt.Println(` 
                                                                    
-           Mehdi 256 Mehdi 256                                                                                                                                                       												 
+            Mehdi 256 Mehdi 256                                                                                                                                         												 
 
 	`)
 	var phone string
