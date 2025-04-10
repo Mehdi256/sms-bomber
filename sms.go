@@ -50,16 +50,16 @@ func main() {
 	// green := "\033[01;32m"
 	// yellow := "\033[01;33m"
 	clearScreen()
-	fmt.Println("\033[1;96m")
+	fmt.Println("\033[1;96;48;5;51m")
 	fmt.Println(`            Mehdi 256 Mehdi 256          `)
 	
 	var phone string
 	fmt.Println("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;33mSms bomber ! number web service : \033[01;31m177 \n\033[01;31m[\033[01;32m+\033[01;31m] \033[01;33mCall bomber ! number web service : \033[01;31m6\n\n")
-	fmt.Print("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;32mEnter phone [Ex:09xxxx]: \033[1;96m")
+	fmt.Print("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;32mEnter phone [Ex:09xxxx]: \033[1;96;48;5;51m")
 	fmt.Scan(&phone)
 
 	var repeatCount int
-	fmt.Print("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;32mEnter Number sms/call : \033[1;96m")
+	fmt.Print("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;32mEnter Number sms/call : \033[1;96;48;5;51m")
 	fmt.Scan(&repeatCount)
 
 	ch := make(chan int)
